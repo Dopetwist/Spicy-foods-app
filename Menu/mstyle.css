@@ -1,0 +1,559 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient( rgba(0,0,0,0.2),  rgba(0,0,0,0.2)), url('menu header.WEBP');
+    background-position: center;
+    background-size: cover;
+    padding: 75px 12.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    position: relative;
+    top: 35%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    font-family: Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 60px;
+    letter-spacing: 1.2px;
+    transition: .4s ease;
+}
+
+.navbar a.active {
+    color: #ffa500;
+}
+
+.navbar a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    bottom: -6px;
+    background: #fff;
+    border-radius: 5px;
+    transform: translateY(10px);
+    transition: .5s;
+    opacity: 0;
+}
+
+.navbar a:hover::after {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.search {
+    width: 250px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 7px;
+    position: relative;
+    top: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.search input::placeholder {
+    color: #fff;
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn i {
+    font-size: 23px;
+    color: #fff;
+    padding: auto;
+}
+
+.menu {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: transparent;
+    position: relative;
+    left: 400px;
+}
+
+.menu h1 {
+    font-family: 'Lucida Grande', sans-serif;
+    padding: 10px;
+    letter-spacing: 1.5px;
+    color: orangered;
+    border: 3px solid orangered;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.images {
+    width: 80%;
+    height: 50%;
+    background: transparent;
+    position: relative;
+    top: 10px;
+    left: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imgpad {
+    padding: 10px;
+}
+
+.imgpad img {
+    border-radius: 10px;
+}
+
+.container {
+    margin: 50px;
+}
+
+.menulist {
+    margin: 50px 0;
+    position: relative;
+    top: 50px;
+}
+
+.menulist ul li h2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+.menulist .medit h3 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+
+.menulist p {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.menulist ul {
+    position: relative;
+    left: 50px;
+}
+
+.imgadjust {
+    width: 100%;
+    height: 300px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.description {
+    width: 100%;
+    height: 160px;
+    background: transparent;
+    position: relative;
+    top: 0;
+    left: 20px;
+}
+
+.btnn {
+    width: 400px;
+    height: 100px;
+    background: transparent;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.btnn span {
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    background: #fff;
+    color: #000;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    position: relative;
+    top: 15%;
+    left: 10%;
+}
+
+.btnn button {
+    width: 90px;
+    height: 40px;
+    position: relative;
+    top: 13%;
+    left: 150px;
+    text-align: center;
+    background: orangered;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    transition: .4s ease;
+}
+
+.btnn button a {
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.btnn button:hover {
+    background: #fff;
+}
+
+.btnn button a:hover {
+    color: orangered;
+}
+
+.back {
+    width: 100%;
+    height: 150px;
+}
+
+.appback {
+    background: url('appetizers.JPG');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin: 25px 0;
+}
+
+.soupback {
+    background: url('soup.JPG');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin: 25px 0;
+}
+
+.saladback {
+    background: url('salad1.JPG');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin: 25px 0;  
+}
+
+.deliback {
+    background: url('deli2.JPG');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin: 25px 0;
+}
+
+.mixedback {
+    background: url('salad sandwitch1.JPG');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin: 25px 0;
+}
+
+.wrapback {
+    background: url('wrap3.JPG');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin: 25px 0;
+}
+
+.clubback {
+    background: url('decker club.JPG');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin: 25px 0;
+}
+
+.deluxeback {
+    background: url('deluxe1.JPG');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin: 25px 0;
+}
+
+.burgerback {
+    background: url('burger.JPG');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin: 25px 0;
+}
+
+.sideback {
+    background: url('sides1.JPG');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin: 25px 0;
+}
+
+.pastaback {
+    background: url('pasta1.JPG');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin: 25px 0;
+}
+
+.seafoodback {
+    background: url('seafood.JPG');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin: 25px 0;
+}
+
+.omeletteback {
+    background: url('omelette2.JPG');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin: 25px 0;
+}
+
+.breakfastback {
+    background: url('breakfast2.JPG');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin: 25px 0;
+}
+
+.dessertback {
+    background: url('dessert2.JPG');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin: 25px 0;
+}
+
+.iceback {
+    background: url('icecream2.JPG');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin: 25px 0;
+}
+
+.down {
+    margin-top: 70px;
+}
+
+.down h3 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.down p {
+    margin-bottom: 30px;
+}
+
+.price {
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.extreme {
+    width: 150px;
+    height: 50px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.extreme span {
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+}
+
+.extreme button {
+    width: 60px;    
+    height: 25px;
+    background: #ff4500;
+    outline: none;
+    border: 2px solid #ff4500;
+    border-radius: 5px;
+    transition: .4s ease;
+}
+
+.extreme button a {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px;
+    color: #fff;
+}
+
+.extreme button:hover {
+    background: #fff;
+}
+
+.extreme button a:hover {
+    color: #ff4500;
+}
+
+footer {
+    width: 100%;
+    height: 107vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('footer img2.JPG');
+    background-position: center;
+    background-size: cover;
+}
+
+#shift {
+    margin-top: 10%;
+}
+
+footer.rights {
+    width: 100%;
+    height: 90px;
+    background: #000;
+}
+
+.opening, .locate, .contact {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Lucida Grande', sans-serif;
+}
+
+.opening h1, .locate h1, .contact h1 {
+    padding: 40px 0 20px;
+    letter-spacing: 2px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.opening p, .locate p {
+    font-size: 25px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.contact p {
+    font-size: 23px;
+    line-height: 1;
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.opening p span, .contact p span {
+    font-weight: 600;
+}
+
+.tel {
+    font-size: 35px;
+}
+
+.follow {
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.follow h2 {
+    padding: 10px;
+    font-family: Georgia, serif;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+.icons a i {
+    color: #fff;
+    font-size: 35px;
+    padding-left: 15px;
+    transition: .4s ease;
+}
+
+.icons a i:hover {
+    color: yellow;
+}
+
+.rights .copy p {
+    color: #fff;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 23px;
+    letter-spacing: 1.5px;
+}
+
+.single {
+    margin-bottom: 40px;
+}
+
+.singledown {
+    margin-top: 60px;
+}
+
+.adjust {
+    padding-top: 30px;
+}
+
+.priceadjust {
+    position: relative;
+    bottom: 15px;
+}

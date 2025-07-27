@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient( rgba(0,0,0,0.2),  rgba(0,0,0,0.2)), url('contact header.JPG');
+    background-position: center;
+    background-size: cover;
+    padding: 75px 12.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    position: relative;
+    top: 35%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    font-family: Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 60px;
+    letter-spacing: 1.2px;
+    transition: .4s ease;
+}
+
+.navbar a.active {
+    color: #ffa500;
+}
+
+.navbar a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    bottom: -6px;
+    background: #fff;
+    border-radius: 5px;
+    transform: translateY(10px);
+    transition: .5s;
+    opacity: 0;
+}
+
+.navbar a:hover::after {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.search {
+    width: 250px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 7px;
+    position: relative;
+    top: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.search input::placeholder {
+    color: #fff;
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn i {
+    font-size: 23px;
+    color: #fff;
+    padding: auto;
+}
+
+.contact {
+    width: 400px;
+    height: 150px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 35px;
+    position: relative;
+    left: 450px;
+}
+.contact h1 {
+    font-family: 'Lucida Grande', sans-serif;
+    padding: 20px;
+    letter-spacing: 1.5px;
+    color: #ff4500;
+}
+
+.feedback {
+    width: 700px;
+    height: 2050px;
+    background-color: #87ceeb33;
+    position: relative;
+    top: 0;
+    left: 320px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 60px;
+    margin-top: 90px;
+    border: 2px solid #0000ff;
+    border-radius: 10px;
+    color: #0000ff;
+}
+
+.feedback h2, .contact-heading {
+    color: #0000ff;
+    font-size: 40px;
+    font-family: 'Times New Roman', serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.feedback .improve {
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    line-height: 1.5;
+
+}
+
+.feedback form .name, .num {
+    width: 45%;
+}
+
+.nameadjust {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback form label, .first, .contact-form form label, .p-adjust {
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    color: #0000ff;
+}
+
+.feedback form input, .contact-form form input {
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+    margin: 5px 0;
+    padding: 6px 10px;
+    border: 2px solid #0000ff;
+    background-color: #fff;
+    border-radius: 5px;
+    outline: none;
+}
+
+.feedback form textarea, .contact-form form textarea {
+    position: relative;
+    left: 5%;
+    border: 2px solid #0000ff;
+    border-radius: 5px;
+    outline: none;
+}
+
+.feedback form select {
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+    margin-left: 10px;
+    color: #000;
+    border: 2px solid #0000ff;
+    border-radius: 5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.feedback form select option {
+    font-size: 15px;
+}
+
+.input-width {
+    width: 250px;
+}
+
+.range {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.range label {
+    font-size: 20px;
+}
+
+.range p {
+    font-size: 17px;
+}
+
+.radi {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 35%;
+}
+
+.radio {
+    width: 80%;
+    text-align: center;
+    line-height: 1.5;
+    position: relative;
+    left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.radio p {
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+}
+
+.radio p span {
+    font-size: 15px;
+}
+
+.close {
+    width: 70%;
+}
+
+.feedback form .date {
+    width: 43%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.suggestion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.correct {
+    text-align: center;
+}
+
+::placeholder {
+    font-size: 15px;
+    padding-left: 6px;
+} 
+
+.feedback form .mail, .contact-form form .mail {
+    width: 100%;
+}
+
+.feedback form .time {
+    width: 100px;
+}
+
+.feedback form .day {
+    width: 25%;
+}
+
+.feedback form .am {
+    width: 20%;
+    border: 2px solid #0000ff;
+    font-size: 15px;
+    outline: none;
+    padding: 5px;
+}
+
+.feedback form .gen {
+    margin-right: 50px;
+}
+
+.feedback button, .contact-form button {
+    width: 160px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Helvetica, sans-serif;
+    line-height: 2;
+    position: absolute;
+    left: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 40px 15px;
+    background-color: #0000ff;
+    color: #fff;
+    border: 2px solid #0000ff;
+    border-radius: 50px;
+    transition: .4s ease;
+}
+
+.feedback button:hover, .contact-form button:hover {
+    background-color: #fff;
+    color: #0000ff;
+}
+
+textarea {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 15px;
+    border: 1.5px solid #0000ff;
+}
+
+textarea::placeholder {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+}
+
+.contacts {
+    width: 700px;
+    height: 850px;
+    background: #87ceeb33;
+    position: relative;
+    top: 0;
+    left: 320px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 60px;
+    margin-top: 90px;
+    border: 2px solid #0000ff;
+    border-radius: 10px;
+    color: #0000ff;
+}
+
+.jump {
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 80%;
+}
+
+.jump button {
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.jump button a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+}
+
+.jump button a:hover {
+    text-decoration: underline;
+}
+
+.contact-info {
+    margin: 10% 0;
+}
+
+.contact-info p {
+    text-align: center;
+    font-size: 22px;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+footer {
+    width: 100%;
+    height: 90px;
+    background: #000;
+    margin-top: 40px;
+}
+
+footer .copy p {
+    color: #fff;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 23px;
+    letter-spacing: 1.5px;
+}
