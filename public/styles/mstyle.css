@@ -7,7 +7,7 @@
 .header {
     width: 100%;
     height: 300px;
-    background: linear-gradient( rgba(0,0,0,0.2),  rgba(0,0,0,0.2)), url('menu header.WEBP');
+    background: linear-gradient( rgba(0,0,0,0.2),  rgba(0,0,0,0.2)), url('/images/Menu/menu header.WEBP');
     background-position: center;
     background-size: cover;
     padding: 75px 12.5%;
@@ -262,7 +262,7 @@
 }
 
 .appback {
-    background: url('appetizers.JPG');
+    background: url('/images/Menu/appetizers.JPG');
     background-position: center;
     background-size: cover;
     height: 200px;
@@ -270,7 +270,7 @@
 }
 
 .soupback {
-    background: url('soup.JPG');
+    background: url('/images/Menu/soup.JPG');
     background-position: center;
     background-size: cover;
     height: 200px;
@@ -278,7 +278,7 @@
 }
 
 .saladback {
-    background: url('salad1.JPG');
+    background: url('/images/Menu/salad1.JPG');
     background-position: center;
     background-size: cover;
     height: 200px;
@@ -286,7 +286,7 @@
 }
 
 .deliback {
-    background: url('deli2.JPG');
+    background: url('/images/Menu/deli2.JPG');
     background-position: center;
     background-size: cover;
     height: 200px;
@@ -294,7 +294,7 @@
 }
 
 .mixedback {
-    background: url('salad sandwitch1.JPG');
+    background: url('/images/Menu/salad sandwitch1.JPG');
     background-position: center;
     background-size: cover;
     height: 200px;
@@ -302,7 +302,7 @@
 }
 
 .wrapback {
-    background: url('wrap3.JPG');
+    background: url('/images/Menu/wrap3.JPG');
     background-position: center;
     background-size: cover;
     height: 200px;
@@ -310,7 +310,7 @@
 }
 
 .clubback {
-    background: url('decker club.JPG');
+    background: url('/images/Menu/decker club.JPG');
     background-position: center;
     background-size: cover;
     height: 200px;
@@ -318,7 +318,7 @@
 }
 
 .deluxeback {
-    background: url('deluxe1.JPG');
+    background: url('/images/Menu/deluxe1.JPG');
     background-position: center;
     background-size: cover;
     height: 200px;
@@ -326,7 +326,7 @@
 }
 
 .burgerback {
-    background: url('burger.JPG');
+    background: url('/images/Menu/burger.JPG');
     background-position: center;
     background-size: cover;
     height: 200px;
@@ -334,7 +334,7 @@
 }
 
 .sideback {
-    background: url('sides1.JPG');
+    background: url('/images/Menu/sides1.JPG');
     background-position: center;
     background-size: cover;
     height: 200px;
@@ -342,7 +342,7 @@
 }
 
 .pastaback {
-    background: url('pasta1.JPG');
+    background: url('/images/Menu/pasta1.JPG');
     background-position: center;
     background-size: cover;
     height: 200px;
@@ -350,7 +350,7 @@
 }
 
 .seafoodback {
-    background: url('seafood.JPG');
+    background: url('/images/Menu/seafood.JPG');
     background-position: center;
     background-size: cover;
     height: 200px;
@@ -358,7 +358,7 @@
 }
 
 .omeletteback {
-    background: url('omelette2.JPG');
+    background: url('/images/Menu/omelette2.JPG');
     background-position: center;
     background-size: cover;
     height: 200px;
@@ -366,7 +366,7 @@
 }
 
 .breakfastback {
-    background: url('breakfast2.JPG');
+    background: url('/images/Menu/breakfast2.JPG');
     background-position: center;
     background-size: cover;
     height: 200px;
@@ -374,7 +374,7 @@
 }
 
 .dessertback {
-    background: url('dessert2.JPG');
+    background: url('/images/Menu/dessert2.JPG');
     background-position: center;
     background-size: cover;
     height: 200px;
@@ -382,7 +382,7 @@
 }
 
 .iceback {
-    background: url('icecream2.JPG');
+    background: url('/images/Menu/icecream2.JPG');
     background-position: center;
     background-size: cover;
     height: 200px;
@@ -457,7 +457,7 @@
 footer {
     width: 100%;
     height: 107vh;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('footer img2.JPG');
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/images/Menu/footer img2.JPG');
     background-position: center;
     background-size: cover;
 }
