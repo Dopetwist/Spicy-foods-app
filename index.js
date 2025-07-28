@@ -7,11 +7,17 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const app = express();
 const port = 3000;
 
-app.use(bodyParser.urlencoded({extended: true}));
+app.use(express.static("public"));
+app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
-    // res.sendFile(__dirname + "/public/home.html");
-    res.send("Welcome!");
+    res.sendFile(__dirname + "/Home/home.html");
+    // res.send("Welcome!");
+});
+
+app.get("/menu", (req, res) => {
+    res.sendFile(__dirname + "/Menu/menu.html");
+    // res.send("Welcome!");
 });
 
 app.post("/register", (req, res) => {
