@@ -20,6 +20,16 @@ app.get("/menu", (req, res) => {
     // res.send("Welcome!");
 });
 
+app.get("/about", (req, res) => {
+    res.sendFile(__dirname + "/About/about.html");
+    // res.send("Welcome!");
+});
+
+app.get("/contact", (req, res) => {
+    res.sendFile(__dirname + "/Contact/contact.html");
+    // res.send("Welcome!");
+});
+
 app.post("/register", (req, res) => {
     // console.log(req.body);
     res.send("We are still working on the site!");

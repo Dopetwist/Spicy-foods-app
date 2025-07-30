@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
     <title>Twist's Spicy Foods/About</title>
-    <link rel="stylesheet" href="astyle.css">
+    <link rel="stylesheet" href="/styles/astyle.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header class="header">
         <nav class="navbar">
-            <a href="../Home/home.html">HOME</a>
-            <a href="../Menu/menu.html">MENU</a>
-            <a href="../About/about.html" class="active">ABOUT</a>
-            <a href="../Contact Us/contact.html">CONTACT US</a>
+            <a href="/">HOME</a>
+            <a href="/menu">MENU</a>
+            <a href="/about" class="active">ABOUT</a>
+            <a href="/contact">CONTACT US</a>
         </nav>
         <form action="#" class="search">
             <input type="search" id="search" name="search" placeholder="Search..." required>
@@ -82,19 +82,19 @@
             <div class="adjust info">
                 <p>Twist's Spicy Foods is located at 27 Shirley Street, Highland Park, Queensland, Australia. <br>
                     The hours of operations are Monday - Thursday (09:00am - 10:30pm),
-                    Friday - Sunday (09:00am - 11:00pm). <br> For more Information, <a href="../Contact Us/contact.html" target="_blank">Contact Us</a> here.
+                    Friday - Sunday (09:00am - 11:00pm). <br> For more Information, <a href="/contact" target="_blank">Contact Us</a> here.
                 </p>
             </div>
         </section>
         
     </div>
 
-    <footer>
+    <footer class="rights">
         <div class="copy">
-            <p>Copyright © 2024 Twist's Spicy Foods.
-                <br> All rights reserved. </p>
+            <p> &copy; <span id="year"></span>, Twist's Spicy Foods || All rights reserved. </p>
         </div>
     </footer>
-    
+
+    <script src="/js/main.js"></script>
 </body>
 </html>
