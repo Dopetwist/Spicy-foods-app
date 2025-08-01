@@ -7,7 +7,7 @@
 .header {
     width: 100%;
     height: 300px;
-    background: linear-gradient( rgba(0,0,0,0.2),  rgba(0,0,0,0.2)), url('contact header.JPG');
+    background: linear-gradient( rgba(0,0,0,0.2),  rgba(0,0,0,0.2)), url('/images/Contact/contact header.JPG');
     background-position: center;
     background-size: cover;
     padding: 75px 12.5%;
