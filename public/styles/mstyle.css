@@ -558,3 +558,36 @@ footer.rights {
     position: relative;
     bottom: 15px;
 }
+
+.totop {
+    width: 120px;
+    height: 90px;
+    background: transparent;
+    position: relative;
+    left: 1150px;
+    margin: 6rem 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.totop button {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border: 2px solid blue;
+}
+
+.totop button a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    padding: 5px;
+    color: blue;
+}
+
+.totop button a:hover {
+    text-decoration: underline;
+    font-weight: 600;
+}

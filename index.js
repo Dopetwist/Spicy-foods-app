@@ -30,6 +30,11 @@ app.get("/contact", (req, res) => {
     // res.send("Welcome!");
 });
 
+app.get("/landing", (req, res) => {
+    res.sendFile(__dirname + "/landing.html");
+    // res.send("Welcome!");
+});
+
 app.post("/register", (req, res) => {
     // console.log(req.body);
     res.send("We are still working on the site!");
