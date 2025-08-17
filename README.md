@@ -20,6 +20,7 @@ This project is a restaurant web app that displays a robust list of meals with t
 *  Refine app using React + Vite
 *  Enhance the UI/UX
 *  Integrate Database for persistence
+*  Implement Purchase Orders functionality
 *  Backend structuring
 
 ## Contributing
