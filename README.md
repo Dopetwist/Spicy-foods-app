@@ -22,6 +22,7 @@ This project is a restaurant web app that displays a robust list of meals with t
 *  Integrate Database for persistence
 *  Implement Purchase Orders functionality
 *  Backend structuring
+*  Login/Register Functionalities
 
 ## Contributing
 
