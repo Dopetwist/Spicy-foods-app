@@ -9,10 +9,19 @@ This project is a restaurant web app that displays a robust list of meals with t
 
 ## Getting Started:
 
-*   Clone the repo.
+*   Clone the repo
+
+    `https://github.com/Dopetwist/Spicy-foods-app.git`
+    
 *   cd [project-directory]
-*   Install all packages using `npm install`
-*   Start the server on the terminal with `nodemon index.js`
+*   Install all packages
+
+      `npm install`
+    
+*   Start the server on the terminal
+
+    `nodemon index.js`
+    
 *   Open `http://localhost:3000` on your browser to view app.
 
 ## Future Improvements
