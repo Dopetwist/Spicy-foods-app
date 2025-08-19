@@ -13,7 +13,8 @@ This project is a restaurant web app that displays a robust list of meals with t
 
     `https://github.com/Dopetwist/Spicy-foods-app.git`
     
-*   cd [project-directory]
+*   cd `Spicy-foods-app`
+  
 *   Install all packages
 
       `npm install`
