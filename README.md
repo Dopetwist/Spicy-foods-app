@@ -25,7 +25,7 @@ This project is a restaurant web app that displays a robust list of meals with t
     
 *   Open `http://localhost:3000` on your browser to view app.
 
-## Future Improvements
+## Future Improvements:
 
 *  Refine app using React + Vite
 *  Enhance the UI/UX
@@ -34,6 +34,6 @@ This project is a restaurant web app that displays a robust list of meals with t
 *  Backend structuring
 *  Login/Register Functionalities
 
-## Contributing
+## Contributing:
 
 All collaborations are welcome for further ideas and improvements.
