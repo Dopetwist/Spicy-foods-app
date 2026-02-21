@@ -3,9 +3,9 @@ This project is a restaurant web app that displays a robust list of meals with t
 
 ## 🛠️ Technologies:  
 
-*   HTML
-*   CSS
-*   JavaScript
+*   HTML - For Structuring of the site.
+*   CSS - For Stylings.
+*   JavaScript - For Functionalities.
 
 ## 🚀 Getting Started:
 
