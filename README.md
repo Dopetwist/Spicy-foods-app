@@ -1,5 +1,5 @@
 # Twist Spicy Food 🧆🍕
-This project is a restaurant web app that displays a robust list of meals with their prices and allows users to place orders of various meals based on choices.  
+This is a restaurant web app that displays a robust list of meals with their prices and allows users to place orders of various meals based on choices.  
 
 ## 🛠️ Technologies:  
 
